@@ -1,8 +1,6 @@
-namespace Pokedex.Models
+namespace Pokedex.Models;
+public class PokedexDto
 {
-    public class PokedexDto
-    {
-        public Pokemon { get; set; }
-        
-    }
+    public List<Tipo> Tipos { get; set; }
+    public List<Pokemon> Pokemons { get; set; }
 }
